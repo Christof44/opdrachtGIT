@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    let today = new date();
+    let uur = today.gethours();
+    let minuten = today.getminutes();
+    let seconden = today.getseconds();
+    let tijd = (`${uur}:${minuten}:${seconden}`);
+    document.write(`<p>De tijd is nu: ${tijd}</p>`);
+    </script>
+</body>
+
+</html>
